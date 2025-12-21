@@ -1,0 +1,64 @@
+#include "searchpatientbyname.h"
+#include "ui_searchpatientbyname.h"
+#include "linkedlist.h"
+#include <QMessageBox>
+#include <QLabel>
+#include <QTimer>
+
+SerachPatientByName::SerachPatientByName(QWidget *parent)
+    : QDialog(parent)
+    , ui(new Ui::SerachPatientByName)
+{
+    ui->setupUi(this);
+}
+
+SerachPatientByName::~SerachPatientByName()
+{
+    delete ui;
+}
+
+void SerachPatientByName::on_search_btn_clicked()
+{
+    QString name = ui->search_patient_input->text().trimmed();
+    if(name.isEmpty()) {
+        QLabel* toast = new QLabel("Patient name is required!", this);
+        toast->setStyleSheet("background-color:red; color:white; padding:10px; border-radius:8px; z-index: 9;");
+        toast->setAlignment(Qt::AlignCenter);
+        toast->setFixedSize(250, 50);
+        toast->move(width()/2, 20);
+        toast->raise();
+        toast->show();
+        QTimer::singleShot(2000, toast, &QLabel::close);
+        return;
+    }
+    data = hospitalQueue.searchByName(name.toStdString());
+    search_patient();
+}
+
+void SerachPatientByName::search_patient() {
+    if(!data) {
+        QLabel* toast = new QLabel("Patient not found!", this);
+        toast->setStyleSheet("background-color:red; color:white; padding:10px; border-radius:8px; z-index: 9;");
+        toast->setAlignment(Qt::AlignCenter);
+        toast->setFixedSize(250, 50);
+        toast->move(width()/2, 20);
+        toast->raise();
+        toast->show();
+        QTimer::singleShot(2000, toast, &QLabel::close);
+        return;
+    }
+    ui->patient_name->setText(QString::fromStdString(data->name));
+    ui->doctors_name->setText(QString::fromStdString(data->doctorName));
+    ui->patient_age->setText(QString::number(data->age));
+    ui->patient_gender->setText(QString::fromStdString(data->gender));
+    ui->patient_disease->setText(QString::fromStdString(data->disease));
+    ui->patient_token_number->setText(QString::number(data->tokenNumber));
+    ui->search_patient_input->setText("");
+}
+
+void SerachPatientByName::on_back_btn_clicked()
+{
+    this->parentWidget()->show();
+    this->hide();
+}
+

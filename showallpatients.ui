@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShowAllPatients</class>
+ <widget class="QDialog" name="ShowAllPatients">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1390</width>
+    <height>824</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: &quot;#111111&quot;;</string>
+  </property>
+  <widget class="QTableWidget" name="patientsTable&#10;">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>200</y>
+     <width>911</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* The Main Table Area */
+QTableWidget, QTableView {
+    background-color: #1c1c1c;      /* Surface color slightly lighter than #111111 */
+    alternate-background-color: #222222; /* Subtle stripes for better readability */
+    border: 1px solid #333333;       /* Clean edge */
+    gridline-color: #333333;        /* Subdued grid lines */
+    color: #e0e0e0;                 /* Off-white text */
+    font-size: 13px;
+    selection-background-color: #00d2ff; /* Your cyan accent for selected rows */
+    selection-color: #000000;
+}
+
+/* Header Styling (Top Row) */
+QHeaderView::section {
+    background-color: #252525;      /* Darkest header color */
+    color: #00d2ff;                 /* Medical blue titles */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333333; /* Thick line separating header from data */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Corner Widget (small square where headers meet) */
+QTableCornerButton::section {
+    background-color: #252525;
+    border: none;
+}
+
+/* Vertical Header (Row Numbers) - Hide if not needed */
+QHeaderView::vertical {
+    background-color: #1c1c1c;
+    color: #666666;
+}
+
+/* Custom Scrollbar to match the dark theme */
+QScrollBar:vertical {
+    border: none;
+    background: #111111;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: #444444;
+    min-height: 20px;
+    border-radius: 5px;
+}</string>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="columnCount">
+    <number>7</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Dr Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Age</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Disease</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Token Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Emergency Patient</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="back_btn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #1c1c1c;  
+border: 1px solid #333333;  
+border-radius: 6px;
+color: #ffffff;            
+padding: 10px 15px;
+font-size: 15px;
+font-weight: bold;
+transition: 0.45s ease;
+}
+
+QPushButton:hover {
+background-color: #111111; 
+border: 1px solid #00d2ff; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>30</y>
+     <width>571</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid #00d2ff;</string>
+   </property>
+   <property name="text">
+    <string>Clinic Managemnet System - All Patients Queue</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
