@@ -9,6 +9,12 @@ AddEmergencyPatient::AddEmergencyPatient(QWidget *parent)
     , ui(new Ui::AddEmergencyPatient)
 {
     ui->setupUi(this);
+    ui->doctors_combo->addItem("Select a Doctor");
+    ui->doctors_combo->addItem("Dr. Masroor");
+    ui->doctors_combo->addItem("Dr. Shahzad");
+    ui->doctors_combo->addItem("Dr. Amna");
+
+    ui->doctors_combo->setItemData(0, 0, Qt::UserRole - 1);
 }
 
 AddEmergencyPatient::~AddEmergencyPatient()
@@ -19,7 +25,7 @@ AddEmergencyPatient::~AddEmergencyPatient()
 void AddEmergencyPatient::on_add_patient_btn_clicked()
 {
     QString name = ui->patient_name->text();
-    QString doctorsName = ui->doctors_name->text();
+    QString doctorsName = ui->doctors_combo->currentText();
     QString age = ui->patient_age->text();
     QString gender = ui->patient_gender->text();
     QString disease = ui->patient_disease->text();
@@ -59,7 +65,7 @@ void AddEmergencyPatient::on_add_patient_btn_clicked()
     toast->show();
     QTimer::singleShot(2000, toast, &QLabel::close);
     ui->patient_name->setText("");
-    ui->doctors_name->setText("");
+    ui->doctors_combo->setCurrentIndex(0);
     ui->patient_age->setText("");
     ui->patient_gender->setText("");
     ui->patient_disease->setText("");

@@ -194,26 +194,6 @@ QLineEdit:focus {
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="QLineEdit" name="doctors_name">
-       <property name="styleSheet">
-        <string notr="true">/* Normal State */
-QLineEdit {
-    background-color: #1c1c1c;  /* Slightly lighter than #111111 background */
-    border: 1px solid #333333;   /* Subtle border when not focused */
-    border-radius: 4px;
-    color: #ffffff;
-    padding: 5px;
-}
-
-/* Focus State - When the user clicks inside to type */
-QLineEdit:focus {
-    border: 1px solid #00d2ff;  /* Medical Cyan glow on focus */
-    background-color: #222222;  /* Slightly lighter background to show activity */
-}</string>
-       </property>
-      </widget>
-     </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_5">
        <property name="font">
@@ -363,6 +343,37 @@ QPushButton:pressed {
        </property>
        <property name="text">
         <string>Add Patient</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="doctors_combo">
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+QComboBox::drop-down {
+    width: 20px;
+}
+
+QComboBox::down-arrow {
+    width: 12px;
+    height: 12px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    selection-background-color: #00d2ff;
+    selection-color: #000000;
+    color: #ffffff;
+    outline: none;
+}</string>
        </property>
       </widget>
      </item>
