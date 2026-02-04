@@ -13,9 +13,15 @@ AddNormalPatient::AddNormalPatient(QWidget *parent)
     ui->doctors_combo->addItem("Dr. Ali");
     ui->doctors_combo->addItem("Dr. Ahmed");
     ui->doctors_combo->addItem("Dr. Shakeel");
-
     ui->doctors_combo->setItemData(0, 0, Qt::UserRole - 1);
+
+    ui->gender_picker->addItem("Select Gender");
+    ui->gender_picker->addItem("Male");
+    ui->gender_picker->addItem("Female");
+    ui->gender_picker->addItem("Other");
+    ui->gender_picker->setItemData(0, 0, Qt::UserRole - 1);
 }
+
 
 AddNormalPatient::~AddNormalPatient()
 {
@@ -27,7 +33,7 @@ void AddNormalPatient::on_add_patient_btn_clicked()
     QString name = ui->patient_name->text().trimmed();
     QString doctorsName = ui->doctors_combo->currentText();
     QString age = ui->patient_age->text().trimmed();
-    QString gender = ui->patient_gender->text().trimmed();
+    QString gender = ui->gender_picker->currentText();
     QString disease = ui->patient_disease->text().trimmed();
     int ageValue = ui->patient_age->text().toInt(&validAge);
 
@@ -80,7 +86,7 @@ void AddNormalPatient::on_add_patient_btn_clicked()
     ui->patient_name->setText("");
     ui->doctors_combo->setCurrentIndex(0);
     ui->patient_age->setText("");
-    ui->patient_gender->setText("");
+    ui->gender_picker->setCurrentIndex(0);
     ui->patient_disease->setText("");
 }
 
