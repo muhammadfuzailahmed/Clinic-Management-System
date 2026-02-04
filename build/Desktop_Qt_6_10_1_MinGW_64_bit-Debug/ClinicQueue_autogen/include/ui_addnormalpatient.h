@@ -34,13 +34,13 @@ public:
     QLineEdit *patient_name;
     QLabel *label_3;
     QLabel *label_5;
-    QLineEdit *patient_gender;
     QLabel *label_4;
     QLineEdit *patient_age;
     QLabel *label_6;
     QLineEdit *patient_disease;
     QPushButton *add_patient_btn;
     QComboBox *doctors_combo;
+    QComboBox *gender_picker;
 
     void setupUi(QDialog *AddNormalPatient)
     {
@@ -152,25 +152,6 @@ public:
 
         formLayout->setWidget(2, QFormLayout::ItemRole::LabelRole, label_5);
 
-        patient_gender = new QLineEdit(formLayoutWidget);
-        patient_gender->setObjectName("patient_gender");
-        patient_gender->setStyleSheet(QString::fromUtf8("/* Normal State */\n"
-"QLineEdit {\n"
-"    background-color: #1c1c1c;  /* Slightly lighter than #111111 background */\n"
-"    border: 1px solid #333333;   /* Subtle border when not focused */\n"
-"    border-radius: 4px;\n"
-"    color: #ffffff;\n"
-"    padding: 5px;\n"
-"}\n"
-"\n"
-"/* Focus State - When the user clicks inside to type */\n"
-"QLineEdit:focus {\n"
-"    border: 1px solid #00d2ff;  /* Medical Cyan glow on focus */\n"
-"    background-color: #222222;  /* Slightly lighter background to show activity */\n"
-"}"));
-
-        formLayout->setWidget(2, QFormLayout::ItemRole::FieldRole, patient_gender);
-
         label_4 = new QLabel(formLayoutWidget);
         label_4->setObjectName("label_4");
         label_4->setFont(font2);
@@ -278,6 +259,36 @@ public:
 "}"));
 
         formLayout->setWidget(1, QFormLayout::ItemRole::FieldRole, doctors_combo);
+
+        gender_picker = new QComboBox(formLayoutWidget);
+        gender_picker->setObjectName("gender_picker");
+        gender_picker->setStyleSheet(QString::fromUtf8("QComboBox {\n"
+"    background-color: #1c1c1c;\n"
+"    border: 1px solid #333333;\n"
+"    border-radius: 4px;\n"
+"    padding: 5px;\n"
+"    color: #ffffff;\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    width: 20px;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow {\n"
+"    width: 12px;\n"
+"    height: 12px;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    background-color: #1c1c1c;\n"
+"    border: 1px solid #333333;\n"
+"    selection-background-color: #00d2ff;\n"
+"    selection-color: #000000;\n"
+"    color: #ffffff;\n"
+"    outline: none;\n"
+"}"));
+
+        formLayout->setWidget(2, QFormLayout::ItemRole::FieldRole, gender_picker);
 
 
         retranslateUi(AddNormalPatient);

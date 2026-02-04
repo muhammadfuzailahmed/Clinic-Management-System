@@ -1,36 +1,82 @@
 # ninja log v7
-87	448	7880400421827405	ClinicQueue_autogen/timestamp	afb226d41c611796
-87	448	7880400421827405	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
-87	448	7880400421827405	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
-87	448	7880400421827405	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
-8003	13171	7880345860175581	CMakeFiles/ClinicQueue.dir/ClinicQueue_autogen/mocs_compilation.cpp.obj	714e2a92c0a8ca52
-8006	12698	7880345860213543	CMakeFiles/ClinicQueue.dir/main.cpp.obj	cc2dc1d1415fff89
-449	7278	7880400425445884	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
-8895	9667	7880400509904976	ClinicQueue.exe	871a189019e97526
-454	8502	7880400425490897	CMakeFiles/ClinicQueue.dir/addnormalpatient.cpp.obj	b4d31cb7f0475844
-459	7601	7880400425536016	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
-463	7838	7880400425586179	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
-468	7726	7880400425631244	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
-35604	36321	7880301964828352	CMakeFiles/ClinicQueue.dir/linkedlist.cpp.obj	d6d6d422b13f7dff
-474	8407	7880400425691816	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
-481	7804	7880400425752163	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
-489	7875	7880400425832885	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
-497	8895	7880400425923123	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
-504	7808	7880400425996380	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
-514	7577	7880400426092431	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
-61	494	7880402680195534	ClinicQueue_autogen/timestamp	afb226d41c611796
-61	494	7880402680195534	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
-61	494	7880402680195534	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
-61	494	7880402680195534	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
-495	7724	7880402684544642	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
-578	8086	7880402685373474	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
-528	8265	7880402684863300	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
-518	8302	7880402684772645	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
-544	8445	7880402685025051	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
-552	8453	7880402685106944	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
-569	8474	7880402685287793	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
-536	8916	7880402684954537	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
-508	8992	7880402684671324	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
-499	9034	7880402684579797	CMakeFiles/ClinicQueue.dir/addnormalpatient.cpp.obj	b4d31cb7f0475844
-561	9393	7880402685197348	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
-9393	10158	7880402773515843	ClinicQueue.exe	871a189019e97526
+16	294	7887004539691494	ClinicQueue_autogen/timestamp	afb226d41c611796
+16	294	7887004539691494	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+16	294	7887004539691494	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
+16	294	7887004539691494	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+1969	9673	7886964903624143	CMakeFiles/ClinicQueue.dir/ClinicQueue_autogen/mocs_compilation.cpp.obj	714e2a92c0a8ca52
+294	6282	7887004542482402	CMakeFiles/ClinicQueue.dir/main.cpp.obj	cc2dc1d1415fff89
+298	6741	7887004542522411	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
+7917	8637	7887004618696437	ClinicQueue.exe	871a189019e97526
+302	7776	7887004542552411	CMakeFiles/ClinicQueue.dir/addnormalpatient.cpp.obj	b4d31cb7f0475844
+306	7634	7887004542602416	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
+310	7287	7887004542642416	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
+314	7156	7887004542682398	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
+2016	3752	7886964904091417	CMakeFiles/ClinicQueue.dir/linkedlist.cpp.obj	d6d6d422b13f7dff
+319	7627	7887004542722514	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
+324	7251	7887004542782525	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
+330	7379	7887004542832501	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
+336	7917	7887004542897738	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
+341	7332	7887004542947721	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
+347	7000	7887004543007725	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
+48	472	7887010414535684	ClinicQueue_autogen/timestamp	afb226d41c611796
+48	472	7887010414535684	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+48	472	7887010414535684	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
+48	472	7887010414535684	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+517	5272	7887010419232308	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
+484	5453	7887010418893969	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
+473	5543	7887010418783454	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
+488	5649	7887010418920417	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
+502	5794	7887010419070830	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
+492	5812	7887010418978886	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
+512	5816	7887010419168638	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
+496	5840	7887010419018755	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
+507	6055	7887010419123423	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
+480	6322	7887010418856960	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
+476	6346	7887010418816119	CMakeFiles/ClinicQueue.dir/addnormalpatient.cpp.obj	b4d31cb7f0475844
+6346	7206	7887010477508443	ClinicQueue.exe	871a189019e97526
+13	346	7918993311702693	ClinicQueue_autogen/timestamp	afb226d41c611796
+13	346	7918993311702693	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+13	346	7918993311702693	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
+13	346	7918993311702693	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+346	5384	7918993315038209	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
+399	5396	7918993315563494	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
+374	5398	7918993315318305	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
+392	5402	7918993315493492	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
+363	5420	7918993315208232	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
+359	5479	7918993315168210	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
+379	5561	7918993315373488	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
+354	5742	7918993315118217	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
+369	5796	7918993315258313	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
+385	6152	7918993315423460	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
+43	267	7918994166553016	ClinicQueue_autogen/timestamp	afb226d41c611796
+43	267	7918994166553016	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+43	267	7918994166553016	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
+43	267	7918994166553016	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+267	5031	7918994168798459	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
+293	5516	7918994169058476	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
+308	5600	7918994169208471	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
+276	5614	7918994168888457	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
+279	5655	7918994168918448	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
+287	5768	7918994168998482	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
+302	5769	7918994169148483	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
+273	6052	7918994168858454	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
+283	6181	7918994168958514	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
+270	6284	7918994168828457	CMakeFiles/ClinicQueue.dir/addnormalpatient.cpp.obj	b4d31cb7f0475844
+297	6484	7918994169098463	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
+6484	7478	7918994230967276	ClinicQueue.exe	871a189019e97526
+36	283	7918995410258618	ClinicQueue_autogen/timestamp	afb226d41c611796
+36	283	7918995410258618	ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+36	283	7918995410258618	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/timestamp	afb226d41c611796
+36	283	7918995410258618	D:/QT Project/ClinicQueue/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/ClinicQueue_autogen/mocs_compilation.cpp	afb226d41c611796
+284	4999	7918995412738893	CMakeFiles/ClinicQueue.dir/mainwindow.cpp.obj	67ad3a102ce277ec
+324	5131	7918995413134207	CMakeFiles/ClinicQueue.dir/dischargepatient.cpp.obj	b3408977b7284bed
+308	5336	7918995412978986	CMakeFiles/ClinicQueue.dir/searchpatientbytoken.cpp.obj	296d72fd20db1a5d
+319	5373	7918995413084162	CMakeFiles/ClinicQueue.dir/updatepatientinfo.cpp.obj	58059f5fc1962dcb
+296	5450	7918995412858935	CMakeFiles/ClinicQueue.dir/servenextpatient.cpp.obj	8a3a4020ac9e5fd8
+293	5546	7918995412828905	CMakeFiles/ClinicQueue.dir/nextpatientinfo.cpp.obj	27e176fc2177e413
+304	5673	7918995412938977	CMakeFiles/ClinicQueue.dir/searchpatientbyname.cpp.obj	eec7d7c4e1b63442
+300	5801	7918995412898960	CMakeFiles/ClinicQueue.dir/showallpatients.cpp.obj	8df4994261504007
+313	5978	7918995413018979	CMakeFiles/ClinicQueue.dir/searchbydoctorname.cpp.obj	c53cd3ad26353c43
+287	6009	7918995412768892	CMakeFiles/ClinicQueue.dir/addnormalpatient.cpp.obj	b4d31cb7f0475844
+290	6080	7918995412798917	CMakeFiles/ClinicQueue.dir/addemergencypatient.cpp.obj	7f9f9e34a3ab7855
+6080	6685	7918995470705940	ClinicQueue.exe	871a189019e97526

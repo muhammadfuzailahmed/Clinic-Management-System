@@ -31,7 +31,6 @@ void MainWindow::on_pushButton_2_clicked()
     this->hide();
 }
 
-
 void MainWindow::on_search_by_doctors_name_btn_2_clicked()
 {
     showallpatients = new ShowAllPatients(this);

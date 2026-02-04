@@ -11,16 +11,6 @@ NextPatientInfo::NextPatientInfo(QWidget *parent)
 {
     ui->setupUi(this);
     data = hospitalQueue.NextPatientInfo();
-    // if(!data) {
-    //     QLabel* toast = new QLabel("No patient in queue!", this);
-    //     toast->setStyleSheet("background-color:red; color:white; padding:10px; border-radius:8px; z-index: 9;");
-    //     toast->setAlignment(Qt::AlignCenter);
-    //     toast->setFixedSize(250, 50);
-    //     toast->move(width()/2, 20);
-    //     toast->raise();
-    //     toast->show();
-    //     QTimer::singleShot(2000, toast, &QLabel::close);
-    // }
     if(data){
         showInfo();
     }

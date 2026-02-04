@@ -33,7 +33,7 @@ void LinkedList::addPatient(string name, string doctorName, string gender, int a
 void LinkedList::addEmergencyPatient(string name, string doctorName, string gender, int age, string disease) {
     Node* newNode = new Node(name, doctorName, gender, age, disease, tokenCounter++, true);
 
-    if(!head) {
+    if(head==nullptr) {
         head = newNode;
         tail = newNode;
         return;
@@ -102,8 +102,9 @@ Node* LinkedList::searchByToken(int token)
     Node* curr = head;
     while (curr != nullptr)
     {
-        if (curr->tokenNumber == token)
+        if (curr->tokenNumber == token){
             return curr;
+        }
         curr = curr->next;
     }
     return nullptr;
