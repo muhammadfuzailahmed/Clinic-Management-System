@@ -96,7 +96,7 @@ Tail → Last patient added
 
 ## DSA Concepts Implemented
 
-- Doubly Linked List
+- Linked List
 - Queue Implementation using Linked List
 - Dynamic Memory Allocation
 - Node Insertion (Front and End)
