@@ -18,7 +18,7 @@ The project demonstrates practical implementation of:
 ## Data Structure Used
 Primary Data Structure:
 
-- Doubly Linked List
+- Linked List
 
 Each patient is represented as a node containing:
 
